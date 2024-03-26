@@ -5,8 +5,7 @@ function Header(params) {
     return (
         <header>
             <img src={logoNike} className={style.logoNike} alt="" />
-            <h1>Welcome Back</h1>
-            <p>Please enter your details to sing in.</p>
+            <button className={style.btnHeader} type="button">Sign Up</button>
         </header>
     );
 }
